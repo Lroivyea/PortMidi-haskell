@@ -57,9 +57,9 @@
 #define MIDI_EOX        0xf7
 #define MIDI_STATUS_MASK 0x80
 
-static MIDIClientRef	client = NULL;	/* Client handle to the MIDI server */
-static MIDIPortRef	portIn = NULL;	/* Input port handle */
-static MIDIPortRef	portOut = NULL;	/* Output port handle */
+static MIDIClientRef	client = 0;	/* Client handle to the MIDI server */
+static MIDIPortRef	portIn = 0;	/* Input port handle */
+static MIDIPortRef	portOut = 0;	/* Output port handle */
 
 extern pm_fns_node pm_macosx_in_dictionary;
 extern pm_fns_node pm_macosx_out_dictionary;
@@ -648,7 +648,7 @@ CFStringRef EndpointName(MIDIEndpointRef endpoint, bool isExternal)
     CFRelease(str);
   }
   
-  MIDIEntityRef entity = NULL;
+  MIDIEntityRef entity = 0;
   MIDIEndpointGetEntity(endpoint, &entity);
   if (entity == NULL)
     // probably virtual
@@ -664,7 +664,7 @@ CFStringRef EndpointName(MIDIEndpointRef endpoint, bool isExternal)
     }
   }
   // now consider the device's name
-  MIDIDeviceRef device = NULL;
+  MIDIDeviceRef device = 0;
   MIDIEntityGetDevice(entity, &device);
   if (device == NULL)
     return result;
