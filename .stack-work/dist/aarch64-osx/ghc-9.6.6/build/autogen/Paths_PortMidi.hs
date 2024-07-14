@@ -46,12 +46,12 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/bin"
-libdir     = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/lib/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0-DNDlje2wQ0CFcDW8xopyw2"
-dynlibdir  = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/lib/aarch64-osx-ghc-9.6.6"
-datadir    = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/share/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0"
-libexecdir = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/libexec/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0"
-sysconfdir = "/Users/gargisupe/Desktop/hertz/metronome/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/etc"
+bindir     = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/bin"
+libdir     = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/lib/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0-DNDlje2wQ0CFcDW8xopyw2"
+dynlibdir  = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/lib/aarch64-osx-ghc-9.6.6"
+datadir    = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/share/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0"
+libexecdir = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/libexec/aarch64-osx-ghc-9.6.6/PortMidi-0.2.0.0"
+sysconfdir = "/Users/gargisupe/Desktop/hertz/hertzApp/.stack-work/install/aarch64-osx/b5c5c6af2c6e062e980049853f0f673387d8ae980f323467224a8ae1eccbc660/9.6.6/etc"
 
 getBinDir     = catchIO (getEnv "PortMidi_bindir")     (\_ -> return bindir)
 getLibDir     = catchIO (getEnv "PortMidi_libdir")     (\_ -> return libdir)

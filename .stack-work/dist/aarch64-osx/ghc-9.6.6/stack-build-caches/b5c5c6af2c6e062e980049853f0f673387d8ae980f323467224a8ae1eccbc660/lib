@@ -1,11 +1,11 @@
 /Users/gargisupe/.ghcup/ghc/9.6.6/lib/ghc-9.6.6/lib/aarch64-osx-ghc-9.6.6/rts-1.0.2/include/ghcversion.h:
   hash: 9032f6afc97dcddfe8c8b306639eb6f456e3f6667f3dd8268681f51bb77c8634
 /Users/gargisupe/Desktop/hertz/PortMidi/.stack-work/dist/aarch64-osx/ghc-9.6.6/build/autogen/cabal_macros.h:
-  hash: 625e01e90fb9848236ede6dccc1867ad6a10ee7736ebcc08df35e2d8dfa6379b
+  hash: eff87821c679be5622ecb89b1046897b6738b9ee7313bc00e9e7498f4e327de8
 /Users/gargisupe/Desktop/hertz/PortMidi/CHANGELOG.md:
   hash: 0a6c21d6a99daefc5afe771e4bc1724fc034255efb02cf302ca70e65f90a0523
 /Users/gargisupe/Desktop/hertz/PortMidi/PortMidi.cabal:
-  hash: 956144a58571f2839e895a1330b61a3898234dc45cb07c576bb55a8db03a6b91
+  hash: 4c68bc09d8951162f6c6d508c5fb8218da55e524986f61a8407d25ee6e0719d2
 /Users/gargisupe/Desktop/hertz/PortMidi/README.txt:
   hash: c315886d025d0d4aa1a2e16ff8423db308c76806cb6466571aa3d2aa7c1aee9a
 /Users/gargisupe/Desktop/hertz/PortMidi/Sound/PortMidi.hs:
